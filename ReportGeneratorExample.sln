@@ -9,7 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FDB1C3B1-A4F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CBDBC32D-A20C-4A3E-AD15-EA58CBB5CA8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportGeneratorExample.Tests", "test\ReportGeneratorExample.Tests\ReportGeneratorExample.Tests.csproj", "{9408EA2F-C3A2-441F-8700-F6C18C74B5E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportGeneratorExample.Tests", "test\ReportGeneratorExample.Tests\ReportGeneratorExample.Tests.csproj", "{9408EA2F-C3A2-441F-8700-F6C18C74B5E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C4D9BC76-A005-4CB9-A6A8-2D2CB5295720}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
