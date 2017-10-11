@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportGeneratorExample", "s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FDB1C3B1-A4F0-4B66-A677-9CD50DE9FD17}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CBDBC32D-A20C-4A3E-AD15-EA58CBB5CA8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportGeneratorExample.Tests", "src\ReportGeneratorExample.Tests\ReportGeneratorExample.Tests.csproj", "{9408EA2F-C3A2-441F-8700-F6C18C74B5E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{BECB32CF-AC85-4932-A934-A0E77C50AF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BECB32CF-AC85-4932-A934-A0E77C50AF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BECB32CF-AC85-4932-A934-A0E77C50AF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9408EA2F-C3A2-441F-8700-F6C18C74B5E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9408EA2F-C3A2-441F-8700-F6C18C74B5E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9408EA2F-C3A2-441F-8700-F6C18C74B5E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9408EA2F-C3A2-441F-8700-F6C18C74B5E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BECB32CF-AC85-4932-A934-A0E77C50AF4B} = {FDB1C3B1-A4F0-4B66-A677-9CD50DE9FD17}
+		{9408EA2F-C3A2-441F-8700-F6C18C74B5E8} = {CBDBC32D-A20C-4A3E-AD15-EA58CBB5CA8B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E111AFB0-7BA3-4329-8589-6C1AF9A17942}
